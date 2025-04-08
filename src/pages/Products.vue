@@ -10,7 +10,7 @@ onMounted(fetchProdutos)
 </script>
 
 <template>
-  <div>
+  <div class="">
     <h2 class="text-3xl font-bold my-6 text-gray-700 text-start">Nossos Produtos</h2>
 
     <div class="flex flex-row items-end justify-end gap-4 mb-6">
