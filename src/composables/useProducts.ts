@@ -17,7 +17,7 @@ export function useProducts() {
     error.value = ''
 
     try {
-      const response = await axios.get('https://backend-challenge.onrender.com/api/produtos', {
+      const response = await axios.get('https://backend-challenge-7joh.onrender.com/api/produtos', {
         params: {
           search: search.value,
           page: page.value,
