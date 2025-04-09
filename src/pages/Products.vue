@@ -13,19 +13,23 @@ onMounted(fetchProdutos)
   <div class="">
     <h2 class="text-3xl font-bold my-6 text-gray-700 text-start">Nossos Produtos</h2>
 
-    <div class="flex flex-row items-end justify-end gap-2 mb-5">
-      <div class="flex flex-row gap-1.5 bg-gray-300 rounded-lg p-2">
-        <h3 class="w-full items-center justify-end">Buscar peça de roupa:</h3>
+    <div
+      class="flex w-full flex-col sm:flex-row justify-center items-center sm:items-end sm:justify-end gap-2 mb-5"
+    >
+      <div
+        class="flex w-full sm:w-fit flex-row justify-center items-center gap-6 sm:gap-1.5 bg-gray-300 rounded-lg p-2"
+      >
+        <h3 class="items-start justify-start">Buscar peça de roupa:</h3>
         <input
           v-model="search"
           type="text"
-          placeholder="Digite o nome da peça"
-          class="border border-b-gray-500 px-2 rounded-md"
+          placeholder="Digite a peça"
+          class="w-[130px] border border-b-gray-500 px-2 rounded"
         />
       </div>
 
-      <div class="flex flex-row gap-1.5 bg-gray-300 rounded-lg p-2">
-        <h3>Ordenar por preço:</h3>
+      <div class="flex w-full sm:w-[340px] flex-row gap-1.5 bg-gray-300 rounded-lg p-2">
+        <h3 class="items-center justify-end px-6">Ordenar por preço:</h3>
         <select v-model="ordination" class="border border-gray-500 px-2 py-[0.090rem] rounded">
           <option value="-1">Selecione</option>
           <option value="asc">Menor preço</option>

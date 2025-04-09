@@ -26,7 +26,6 @@ export function useProducts() {
         },
       })
 
-      console.log(response.data)
       products.value = response.data.data
       totalPages.value = response.data.pagination.total_pages
     } catch (e) {
