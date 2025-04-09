@@ -1,32 +1,32 @@
 # challenge-frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Este template deve te ajudar a começar o desenvolvimento com Vue 3 usando Vite.
 
-## Project Setup
+## Configuração do Projeto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar e Recarregar Automaticamente para Desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar e Minificar para Produção
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Executar Testes Unitários com [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Analisar Código com [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
