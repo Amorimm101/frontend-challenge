@@ -9,7 +9,7 @@ export function useProducts() {
   const search = ref('')
   const page = ref(1)
   const totalPages = ref(1)
-  const ordination = ref('asc') // ou 'desc'
+  const ordination = ref('-1')
   const byPage = 6
 
   const fetchProdutos = async () => {
